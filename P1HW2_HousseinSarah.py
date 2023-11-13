@@ -26,9 +26,7 @@ total_expenses = gas_expense + accommodation_expense + food_expense
 remaining_budget = budget - total_expenses
 
 # Display the travel expenses 
-print("\n****************************************")
 print("             Travel Expenses             ")
-print("****************************************")
 print("Location:                ", destination)
 print("Initial Budget:          $", format(budget, '.2f'))
 print("Fuel:                    $", format(gas_expense, '.2f'))
